@@ -43,9 +43,9 @@ const Dashboard = () => {
             loader={<div>Loading Chart</div>}
             data={[
               ["Product category", "Units sold"],
-              ["Motherboard", 11],
-              ["Ram", 2],
-              ["Graphics card", 2]
+              ["Motherboard", 5],
+              ["Ram", 9],
+              ["Graphics card", 3]
             ]}
             options={{
               title: "Best selling products",

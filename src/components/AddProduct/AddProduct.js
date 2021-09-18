@@ -95,17 +95,7 @@ const onSubmit = async (values) => {
                     label="Sale Price"
                   />
                 </Grid>
-                <Grid item xs={12} lg={12}>
-                  <Field
-                    fullWidth
-                    name="description"
-                    component={TextField}
-                    type="text"
-                    label="Description"
-                    multiline
-                    rows={4}
-                  />
-                </Grid>
+
                 <Grid item xs={12} lg={12}>
                   <Field
                     fullWidth
@@ -117,7 +107,18 @@ const onSubmit = async (values) => {
                   />
                 </Grid>
 
-                
+                <Grid item xs={12} lg={12}>
+                  <Field
+                    fullWidth
+                    name="description"
+                    component={TextField}
+                    type="text"
+                    label="Description"
+                    multiline
+                    rows={4}
+                  />
+                </Grid>
+
                 <Grid item style={{ marginTop: 16 }}>
                   <Button
                     type="button"
