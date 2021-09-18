@@ -2,7 +2,7 @@
 
 Go to your terminal and run
 
-## `git clone https://github.com/Siddiqui-2583/book-house.git`
+## `git clone https://github.com/Siddiqui-2583/NurnabySiddiqui_SE_JAVA_JS_1.git`
 
 Then run
 
